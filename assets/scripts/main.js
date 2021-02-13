@@ -99,4 +99,4 @@ function toParty(){
 //play the audio when button is clicekd 
 
 var myBtn = document.getElementById("honk-btn");
-myBtn.addEventListener("click", function(){if (myBtn.disabled==false){myAudio.onplay();}});
+myBtn.addEventListener("click", function(){if (myBtn.disabled==false){myAudio.play();}});
