@@ -63,10 +63,10 @@ function numberChanged(){
 
 //change the audio selection 
 var airAudio = document.getElementById("radio-air-horn-container");
-airAudio.addEventListener(onclick, toAir;
+airAudio.addEventListener(onclick, toAir);
 
 var airAudio = document.getElementById("radio-car-horn-container");
-airAudio.addEventListener(onclick, toCar;
+airAudio.addEventListener(onclick, toCar);
 
 var airAudio = document.getElementById("radio-party-horn-container");
 airAudio.addEventListener(onclick, toParty);
