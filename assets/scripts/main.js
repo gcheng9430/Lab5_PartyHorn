@@ -41,7 +41,7 @@ function sliderChanged(){
     //change image
     updateImage(myVolume);
     //change number
-    volumeNumber.setAttribute("value",myVolume);
+    volumeNumber.value = myVolume;
     //update volume 
     myAudio.volume= myVolume/100;
     //update Button
@@ -54,7 +54,7 @@ function numberChanged(){
     //change image
     updateImage(myVolume);
     //change number
-    volumeSlider.setAttribute("value",myVolume);
+    volumeSlider.value = myVolume;
     //update volume 
     myAudio.volume= myVolume/100;
     //update Button
