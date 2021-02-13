@@ -37,7 +37,7 @@ function updateBtn(num){
 
 //update image and number and volume when slider is changed
 function sliderChanged(){
-    var myVolume = volumeSlider.getAttribute("value");
+    var myVolume = volumeSlider.value;
     //change image
     updateImage(myVolume);
     //change number
@@ -50,7 +50,7 @@ function sliderChanged(){
 
 //update image and slider and volume when number is changed 
 function numberChanged(){
-    var myVolume = volumeNumber.getAttribute("value");
+    var myVolume = volumeNumber.value;
     //change image
     updateImage(myVolume);
     //change number
