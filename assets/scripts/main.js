@@ -8,7 +8,7 @@ var volumeSlider = document.getElementById("volume-slider");
 var volumeImage = document.getElementById("volume-image");
 var myAudio = document.getElementById("horn-sound");
 
-volumeSlider.addEventListener("change", sliderChanged);
+volumeSlider.addEventListener(onchange, sliderChanged);
 volumeNumber.addEventListener(onchange, numberChanged);
 
 
